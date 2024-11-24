@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Diya Choube</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <nav class="navbar">
+            <img src="photo _diya.jpeg" alt="Diya's Photo" class="profile-pic">
+            <ul class="nav-links">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i class="fas fa-bars toggle-menu"></i>
+        </nav>
+
+        <div class="header-content">
+            <p class="role">Full-Stack Developer</p>
+            <h1>Hello, I'm <span class="highlight">Diya Choube</span></h1>
+            <p class="description">This is my portfolio showcasing my work and experience in Full-stack development.</p>
+            <a href="https://drive.google.com/file/d/19GiLtbKrAGJygscmLJQzBbYlN9kaZWk2/view?usp=drive_link" class="btn btn-primary">Download CV</a>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p><b>
+                Motivated full-stack developer with over 1 yearof experience maintaining java applications. Proven track 
+                record of generating ideas for improving the web and software applications to enhance customer satisfaction. 
+                Ability to make good technical decisions that result in a positive impact on adjacent systems.</b> </p>
+            <div class="tab-container">
+                <div class="tabs">
+                    <button class="tab active" onclick="openTab('education')">Education</button>
+                    <button class="tab" onclick="openTab('skills')">Skills</button>
+                    <button class="tab" onclick="openTab('experience')">Experience</button>
+                    <button class="tab" onclick="openTab('Copy right')">Publication</button>
+                </div>
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><strong>G H Raisoni College Engineering Nagpur</strong> - B.Tech, IT (8.34 CGPA)</li>
+                        <li><strong>Om Satya Sai College</strong> - HSC (76%)</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-content" id="skills" style="display: none;">
+                    <ul>
+                        <b><li>Java Frameworks: Spring (Spring-IOC,Spring-MVC,Spring-DAO, Spring-JDBC), Hibernate& 
+                            Microservices Springboot </li>
+                        <li>Programming Languages: Java, HTML, JavaScript, CSS </li>
+                        <li>Data Structures: Data Structure using Java </li>
+                        <li>Server Technologies: Servlet, JSP </li>
+                        <li>DBMS:  Oracle, MySQL</li>
+                        <li>DBMS (ORM):  JDBC, Spring-JDBC, Hibernate, JPA (Java Persistance API) </li>
+                        <li>Component Technology:  JavaBean</li>
+                        <li>API Development: Web Services using REST API, SpringBoot </li>
+                        <li>Testing Tool:   Postman</li>
+                        <li>IDE:  Eclipse J2EE, Spring Tool Suite, IntelliJ IDEA, Spring Initializr online tool</li>
+                        <li>Server-side Scripting:  XML, JSON</li>
+                        <li>Server:  Apache Tomcat</li>
+                        </b>
+                    </ul>
+                </div>
+                <div class="tab-content" id="experience" style="display: none;">
+                    <ul>
+                        
+                      <b><pre><li> 
+                                EDULYT INDIA                                             Jan’ – Jun’2024 
+                                (Data Analytics Intern) 
+                                Edulyt India is an educational technology company dedicated to improving learning experiences through data
+                                driveninsights and innovative solutions. As a Data Analysis Intern, I contributed to the analysis and 
+                                interpretation ofeducational data, providing valuable insights to enhance learning outcomes and business 
+                                strategies. </li>
+
+                            <li>
+                                OASIS INFOBYTE                                      May – Jun’2023 
+                                (Backend JAVA Developer Intern) 
+                                Oasis Infobyte is an innovative technology firm focused on creating robust backend solutions and enterprise
+                                levelapplications.  
+                                Project:Online Banking System 
+                                Description:The Online Banking System is a Java-based console application to simulatebasic banking 
+                                operations. I design it to allow end users to create the banking account, deposit and withdraw money, 
+                                transfer funds between accounts, and check account balance.  
+                                Technology used: JAVA, My-SQL, JDBC, Spring-boot.</li>
+
+                            <li>
+                                TXON                                               Feb’ – Mar’2023 
+                                (Web DeveloperIntern) 
+                                A dynamic web solutions company, specializing in innovative digital products. As aWeb developer 
+                                a,contributed to diverse projects including portfolio websites, calculators, and to-do applications. 
+                                Project:Web Application using Create React App 
+                                Description:Developed a responsive web app using Create React App, leveraging modern JavaScript 
+                                libraries andframeworks to build interactive user interfaces. 
+                                Technology used: React, JavaScript, HTML, CSS, Bootstrap
+                             
+                            </li>
+                            <li>
+                                Let’s Grow More                                   Jan’ – Jun’2022
+                                (Web Developer Intern) 
+                                Project:Student Result Management System 
+                                Jan’ – Jun’2022 
+                                Description: Designed and implemented a robust student result management Java application to 
+                                streamline academicrecord-keeping and enhance administrative efficiency within educational institutions. 
+                                Technologies used: Java, Springboot, MySQL, HTML, CSS, JavaScript, React.</li></pre></b>
+                    </ul>
+                </div>
+
+                <div class="tab-content" id="Copy right" style="display: none;">
+                    <ul><b>
+                        <li>Publisha paper - INTERNATIONAL CONFERENCE ON ARTIFICAL INTELLIGENCE & QUANTUM COMPUTATION  -BASED SENSOR APPLICATIONS-23 </li>
+                        <li>Publisha poster on - Airbnb Rental Price Prediction Using AL & ML</li>
+                        <li>Publisha Poster on - BIOMETRIC IN CRYPTOSYSTEM</li></b>
+                    </ul>                
+
+                    
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p><i class="fa-solid fa-envelope"></i> diyaschoube@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 93227154**</p>
+                    <div class="social-links">
+                        
+                        <a href="https://www.linkedin.com/in/diya-choube-310320205/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/DiyaChoube7" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-secondary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Diya Choube. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
